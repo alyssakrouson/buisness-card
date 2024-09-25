@@ -1,24 +1,18 @@
+import './App.css';
 import React from 'react';
-import MyPage from './MyPage'; // Import your newly created page
-
-
+import NameCard from './components/NameCard.js';
+import Main from './components/Main.js';
+import Footer from './components/Footer.js';
+import ReactDOM from 'react-dom/client';
 
 function App() {
-
-    return (
-
-        <div>
-
-            <MyPage />
-
-            {/* Other parts of your app */}
-
-        </div>
-
-    );
-
+  return (
+    <div className="App">
+      <NameCard/>
+      <Main/>
+      <Footer/>
+    </div>
+  );
 }
-
-
 
 export default App;

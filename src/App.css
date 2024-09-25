@@ -1,38 +1,205 @@
-.App {
+body {
+  background-color: #23252C;
   text-align: center;
+  color: white;
+  font-family: Inter;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+  margin: auto;
+  width: 30%;
+  background-color: #1A1B21;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: -18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  margin: auto;
+  width: 30%;
+  background-color: #1A1B21;
+  line-height: 10px;
+  border-radius: 10px 10px 0px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#profile {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#Ocupation {
+  color: #F3BF99;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+ul {
+  list-style-type: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: #374151;
+}
+
+a {
+  text-decoration: none;
+  color: #F5F5F5;
+  font-size: 10px;
+}
+
+a:hover {
+  color: gray;
+}
+
+.buttons a {
+  color: #374151;
+  font-size: 14px;
+}
+
+.buttons li {
+  background-color: white;
+  width: 50%;
+  border-radius: 6px;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.buttons li:hover {
+  background-color: grey;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#linked, #linked a {
+  background-color: #5093E2;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+#linked:hover, #linked a:hover {
+  background-color: #2b66aa;
+}
+
+#linked img {
+  width: 15%;
+}
+
+.buttons img {
+  width: 20%;
+}
+
+.par h2 {
+  font-size: 16px;
+}
+
+.par {
+  color: white;
+  background-color: #1A1B21;
+  padding: 20px;
+  text-align: left;
+  margin-top: -30px;
+  font-size: 10px;
+  border-radius: 15px;
+}
+
+footer {
+  margin: auto;
+  width: 30%;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+footer img {
+  width: 10%;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    margin: auto;
+    width: 100%;
+    background-color: #1A1B21;
+    border-radius: 10px 10px 0px 0px;
+    padding: none;
+    margin-bottom: -18px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  header {
+    margin: auto;
+    width: 100%;
+    line-height: 10px;
+    border-radius: 10px 10px 0px 0px;
   }
+  
+  header p {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  #profile {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  #Ocupation {
+    color: #F3BF99;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  
+  ul {
+    list-style-type: none;    
+    display: flex;
+    color: #374151;
+  }
+  
+  a {
+    font-size: 10px;
+  }
+  
+  .buttons li {
+    background-color: white;
+    width: 50%;
+    border-radius: 6px;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #linked img {
+    width: 15%;
+  }
+  
+  .buttons img {
+    width: 20%;
+  }
+
+  
+  .par {
+    padding: 20px;
+    text-align: left;
+    margin-top: -30px;
+    font-size: 10px;
+    border-radius: 15px;
+  }
+  
+  footer {
+    margin: auto;
+    width: 100%;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  footer img {
+    width: 10%;
+    padding: 30px;
+  }
+
+
 }
