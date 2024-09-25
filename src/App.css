@@ -3,7 +3,7 @@ body {
   text-align: center;
   color: white;
   font-family: Inter;
-  margin: 100px;
+  margin: 50px;
 }
 
 main {
@@ -59,6 +59,7 @@ a:hover {
 
 .buttons li {
   background-color: white;
+  margin: auto;
   width: 50%;
   border-radius: 6px;
   font-size: 12px;
