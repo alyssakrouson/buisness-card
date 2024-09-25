@@ -3,6 +3,7 @@ body {
   text-align: center;
   color: white;
   font-family: Inter;
+  margin: 100px;
 }
 
 main {
@@ -10,7 +11,6 @@ main {
   width: 30%;
   background-color: #1A1B21;
   border-radius: 10px 10px 0px 0px;
-  margin-bottom: -18px;
 }
 
 header {
@@ -55,14 +55,13 @@ a:hover {
 
 .buttons a {
   color: #374151;
-  font-size: 14px;
 }
 
 .buttons li {
   background-color: white;
   width: 50%;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 12px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -119,13 +118,15 @@ footer img {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+
   main {
     margin: auto;
     width: 100%;
-    background-color: #1A1B21;
     border-radius: 10px 10px 0px 0px;
     padding: none;
-    margin-bottom: -18px;
   }
   
   header {
@@ -146,13 +147,11 @@ footer img {
   }
   
   #Ocupation {
-    color: #F3BF99;
     font-weight: normal;
     font-size: 13px;
   }
   
   ul {
-    list-style-type: none;    
     display: flex;
     color: #374151;
   }
@@ -165,7 +164,7 @@ footer img {
     background-color: white;
     width: 50%;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -180,7 +179,6 @@ footer img {
     width: 20%;
   }
 
-  
   .par {
     padding: 20px;
     text-align: left;
